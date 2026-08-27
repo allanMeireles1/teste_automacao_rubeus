@@ -1,83 +1,51 @@
-# Desafio Técnico - Analista de Qualidade Júnior | Rubeus
+# 🧪 Desafio Técnico — QA / Rubeus
 
-Este repositório contém a entrega do teste prático para o processo seletivo da **Rubeus**.
-O projeto consiste na análise de qualidade, identificação de bugs e sugestões de melhoria em duas páginas de exemplo, além da automação dos fluxos principais utilizando **Python** e **Playwright**.
+Entrega de um teste prático de **Quality Assurance**, envolvendo análise de qualidade, identificação de bugs, sugestões de melhoria e automação dos principais fluxos.
 
----
+Este projeto representa uma etapa anterior da minha trajetória e permanece no portfólio como evidência de experiência prática com **QA, Python e automação**.
 
-## 📋 Escopo do Teste
+## 🎯 O que foi realizado
 
-A análise foi realizada nas seguintes URLs:
+- análise funcional das páginas avaliadas;
+- identificação e documentação de bugs;
+- análise de comportamentos esperados e inesperados;
+- sugestões de melhoria;
+- automação dos fluxos principais.
 
-1. **Certificação**
-   https://qualidade.apprbs.com.br/certificacao
+## 🛠️ Tecnologias
 
-2. **Site Institucional**
-   https://qualidade.apprbs.com.br/site
+- Python
+- Playwright
+- Pytest
+- Git
 
----
-
-## 🛠️ Tecnologias Utilizadas
-
-* **Linguagem:** Python
-* **Framework de Automação:** Playwright
-* **Controle de Versão:** Git
-
----
-
-## 📂 Estrutura do Projeto
+## 📂 Estrutura
 
 ```text
 teste_automacao/
 ├── site_certificacao/
-│   └── test_certificacao.py   # Scripts automatizados da página de certificação
+│   └── test_certificacao.py
 ├── site_institucional/
-│   └── test_site.py           # Scripts automatizados do site principal
-├── requirements.txt           # Dependências do projeto
-└── README.md                  # Documentação principal
+│   └── test_site.py
+├── requirements.txt
+└── README.md
 ```
 
----
-
-## 🚀 Como Executar o Projeto
-
-### 1. Clonar o repositório
+## 🚀 Execução
 
 ```bash
-git clone https://github.com/allanMeireles1/NOME_DO_REPO.git
-cd desafio-qa-rubeus
-```
+git clone https://github.com/allanMeireles1/teste_automacao_rubeus.git
+cd teste_automacao_rubeus
 
----
-
-### 2. Criar ambiente virtual (Linux Mint)
-
-```bash
 python3 -m venv venv
 source venv/bin/activate
-```
 
----
-
-### 3. Instalar dependências
-
-```bash
 pip install -r requirements.txt
 playwright install
-```
 
----
-
-### 4. Executar testes
-
-```bash
 pytest
 ```
 
----
+## 📌 Contexto
 
-## 👤 Candidato
-
-**Nome:** Allan Meireles
-**LinkedIn:** https://linkedin.com/in/allan-meireles-qa/
-
+O projeto demonstra uma combinação de **qualidade de software, pensamento orientado a risco, automação e Python**. Essas competências continuam relevantes na minha trajetória atual, especialmente para testes e avaliação de sistemas de software e aplicações de IA.
